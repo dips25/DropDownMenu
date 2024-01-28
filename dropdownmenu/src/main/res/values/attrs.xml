@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <declare-styleable name="MyDropDownMenu">
+
+
+        <attr name="childs" format="integer"/>
+        <attr name="heading" format="string"/>
+        <attr name="android:gravity"/>
+        <attr name="headerTextSize" format="integer"/>
+        <attr name="headertextColor" format="color"/>
+        <attr name="android:textStyle" format="string"/>
+        <attr name="singleSelection" format="boolean"/>
+        <attr name="multiSelection" format="boolean"/>
+        <attr name="header" format="reference"/>
+        <attr name="outerborderWidth" format="integer"/>
+        <attr name="outerborderColor" format="color"/>
+        <attr name="outerborderRadius" format="integer"/>
+        <attr name="curved" format="boolean"/>
+        <attr name="headerBackGroundColor" format="color"/>
+        <attr name="android:layout_centerVertical"/>
+        <attr name="outerborder" format="boolean"/>
+        <attr name="addDropDownIcon" format="boolean"/>
+        <attr name="labelPosition" format="enum">
+        <enum name="left" value="0"/>
+        <enum name="right" value="1"/>
+        <enum name="center_left" value="2"/>
+        <enum name="center_right" value="3"/>
+            <enum name="bottom_left" value="4"/>
+            <enum name="bottom_right" value="5"/>
+            <enum name="center" value="6"/>
+            <enum name="center_top" value="7"/>
+            <enum name="center_bottom" value="8"/>
+        </attr>
+
+        <attr name="dropDownResource" format="reference"/>
+
+
+
+
+    </declare-styleable>
+</resources>

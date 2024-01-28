@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="60dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<com.view.menu.mydropdown.MyDropDownMenu
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginTop="5dp"
+    app:heading="Image"
+    android:textStyle="italic|bold"
+    app:headertextColor="#808080"
+    app:headerTextSize="10"
+    android:gravity="center"
+    app:labelPosition="center"
+    app:curved="true"
+    app:outerborder="true"
+    app:outerborderColor="@color/gray"
+    app:outerborderWidth="3"
+    app:header="@drawable/lockdoor"
+    app:addDropDownIcon="true"
+    app:dropDownResource="@drawable/dropdowniconn"
+    android:id="@+id/mydropdown">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/lockdoor"/>
+
+    <com.view.menu.mydropdown.MyDropDownMenu
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:curved="true"
+        app:outerborder="true"
+        app:outerborderWidth="5"
+        app:addDropDownIcon="true"
+        app:labelPosition="center_bottom"
+        app:headerTextSize="14"
+        app:headertextColor="@color/material_dynamic_neutral40"
+        app:outerborderColor="@color/black"
+        app:header="@color/gray"
+        android:layout_centerVertical="true"
+        app:heading="What is Lorem Ipsum?"
+        android:id="@+id/innerlayout">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sampletext"/>
+
+</com.view.menu.mydropdown.MyDropDownMenu>
+
+
+
+</com.view.menu.mydropdown.MyDropDownMenu>
+
+        <com.view.menu.mydropdown.MyDropDownMenu
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            app:curved="true"
+            app:outerborder="true"
+            app:labelPosition="center"
+            app:heading="2ndMenu"
+            app:header="@drawable/lockdoor"
+            app:outerborderWidth="6"
+            app:headertextColor="@color/black"
+            app:addDropDownIcon="true"
+            android:id="@+id/secondmenu">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/sampleheader"
+                android:scaleType="fitXY"/>
+
+            <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="GetAllValues"
+                        android:layout_gravity="bottom"
+                        android:id="@+id/getselectedvalues"/>
+
+        </com.view.menu.mydropdown.MyDropDownMenu>
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
