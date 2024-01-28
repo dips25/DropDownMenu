@@ -44,9 +44,6 @@ public class MainActivity extends AppCompatActivity {
 
         Button btn = (Button) findViewById(R.id.getselectedvalues);
 
-
-
-
         //Inflate the dropdownMenu
 
         MyDropDownMenu myDropDownMenu = (MyDropDownMenu) findViewById(R.id.mydropdown);
