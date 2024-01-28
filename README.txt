@@ -128,12 +128,7 @@ maven { url 'https://jitpack.io' }
         
     </LinearLayout>
 </ScrollView>
-
-
                       *****Your Activity********
-
-       //Inflate the dropdownMenu
-
         MyDropDownMenu myDropDownMenu = (MyDropDownMenu) findViewById(R.id.mydropdown);
 
         //Inflate the inner dropdown
