@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'com.menu.dropdown.dropdownmenu'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.menu.dropdown.dropdownmenu"
         minSdk 21
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
